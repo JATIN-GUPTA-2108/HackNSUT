@@ -1,0 +1,194 @@
+body {
+    background-color: #cadae215;
+    box-sizing: border-box;
+}
+
+.image {
+    position: absolute;
+    /* width: 580px;
+    height: 500px; */
+    width: 600px;
+    height: 580px;
+    border-radius: 6px;
+    background-color: #407088c2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.rectangle {
+    border-radius: 6px;
+    border-width: 3px;
+    border-color: #d5f0fdc2;
+    background-color: #d7edf896;
+    border-style: solid;
+    width: 500px;
+    height: 480px;
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.icon {
+    height: 48px;
+    background-color: #efefef;
+    border-radius: 50%;
+    padding: 2px;
+    position: absolute;
+    top: 8%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.text {
+    position: absolute;
+    font-family: Inter;
+    font-size: 28px;
+    /* color: #3A414DFF; */
+    color: #000;
+    top: 23%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+hr {
+    width: 230px;
+    height: 1px;
+    position: absolute;
+    top: 31%;
+    left: 50%;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background-color: #3A414DFF;
+    background-color: #000;
+    color: #000;
+    border: none;
+}
+
+.textbox1 input {
+    position: absolute;
+    top: 39%;
+    left: 50%;
+    padding: 10px 20px;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 250px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 4px;
+}
+
+.textbox2 input {
+    position: absolute;
+    top: 51%;
+    left: 50%;
+    padding: 10px 20px;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 250px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 4px;
+}
+
+.textbox3 input {
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    padding: 10px 20px;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 250px;
+    background-color: #efefef;
+    border: none;
+    border-radius: 4px;
+}
+
+.register {
+    position: absolute;
+    top: 71%;
+    left: 62%;
+    padding: 10px 20px;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 250px;
+}
+
+.register a {
+    color: black;
+    text-decoration: none;
+}
+
+button {
+    position: absolute;
+    top: 83%;
+    left: 50%;
+    padding: 10px 20px;
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    width: 150px;
+    height: 35px;
+}
+
+button a {
+    text-decoration: none;
+    border: none;
+    color: #000;
+    border-radius: 4px;
+}
+
+.button:hover {
+    color: #2F3540FF;
+    background: #00000000;
+}
+
+
+/* Pressed */
+
+.button:hover:active {
+    color: #48505EFF;
+    background: #00000000;
+}
+
+
+/* Disabled */
+
+.button:disabled {
+    opacity: 0.4;
+}
+
+.textbox1 input:hover,
+.textbox2 input:hover {
+    color: #21262EFF;
+    background: #FFFFFFBF;
+    border-color: #21262EFF;
+    border: none;
+}
+
+
+/* focused */
+
+.textbox1 input:focused,
+.textbox2 input:focused {
+    color: #21262EFF;
+    background: #FFFFFFBF;
+    border-color: #21262EFF;
+}
+
+
+/* disabled */
+
+.textbox1 input:disabled,
+.textbox2 input:disabled {
+    color: #21262EFF;
+    background: #FFFFFFBF;
+    border-color: #21262EFF;
+}

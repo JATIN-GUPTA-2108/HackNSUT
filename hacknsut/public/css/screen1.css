@@ -1,0 +1,81 @@
+body {
+    /* background-color: #d6d0d0; */
+    background-color: #cadae215;
+}
+
+.image {
+    position: absolute;
+    /* top: 22%;
+    left: 33%; */
+    width: 500px;
+    height: 420px;
+    border-radius: 6px;
+    background-color: #407088c2;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 33%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.text {
+    position: absolute;
+    top: 40px;
+    left: 120px;
+    font-family: Inter;
+    font-size: 50px;
+    line-height: 70px;
+    color: #000;
+}
+
+.rectangle1 {
+    position: absolute;
+    top: 33%;
+    left: 120px;
+    width: 260px;
+    height: 80px;
+    background: rgb(212, 216, 224);
+    border-radius: 6px;
+    border-width: 3px;
+    border-color: rgb(212, 216, 224);
+    border-style: solid;
+}
+
+.rectangle2 {
+    position: absolute;
+    top: 63%;
+    left: 120px;
+    width: 260px;
+    height: 80px;
+    background: rgb(212, 216, 224);
+    border-radius: 6px;
+    border-width: 3px;
+    border-color: rgb(212, 216, 224);
+    border-style: solid;
+}
+
+.rectangle1 img,
+.rectangle2 img {
+    height: 48px;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.rectangle1 span,
+.rectangle2 span {
+    position: absolute;
+    top: 50%;
+    left: 43%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    font-family: Inter;
+    font-size: 25px;
+    line-height: 38px;
+    color: #21262EFF;
+}
